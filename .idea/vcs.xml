@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Walnut-Modules/Walnut-Networking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/WalnutApp/src/ImPlot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/WalnutApp/src/nativefiledialog-extended" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/premake-clion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/premake-cmake" vcs="Git" />
+  </component>
+</project>

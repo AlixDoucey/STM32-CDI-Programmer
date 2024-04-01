@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="nativefiledialog-extended"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Walnut\;CMake Files\Walnut-Modules\;CMake Files\Walnut-Modules\Walnut-Networking\;CMake Files\vendor\;CMake Files\vendor\GLFW\;CMake Files\vendor\imgui\;CMake Files\vendor\yaml-cpp\;CMake Files\WalnutApp\;CMake Files\WalnutApp\src\;CMake Files\WalnutApp\src\nativefiledialog-extended\;CMake Files\WalnutApp\src\nativefiledialog-extended\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-release/WalnutApp/src/nativefiledialog-extended"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-release\WalnutApp\src\nativefiledialog-extended\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-release\WalnutApp\src\nativefiledialog-extended\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-release\WalnutApp\src\nativefiledialog-extended\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-release\WalnutApp\src\nativefiledialog-extended\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nfd">
+				<Option output="C:/Users/alixd/Desktop/Walnut/cmake-build-release/WalnutApp/src/nativefiledialog-extended/src/nfd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-release/WalnutApp/src/nativefiledialog-extended/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/src/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-release\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 nfd"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-release\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-release\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-release\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nfd/fast">
+				<Option output="C:/Users/alixd/Desktop/Walnut/cmake-build-release/WalnutApp/src/nativefiledialog-extended/src/nfd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-release/WalnutApp/src/nativefiledialog-extended/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/src/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-release\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 nfd/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-release\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-release\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-release\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/src/include/nfd.h">
+			<Option target="nfd"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/src/include/nfd.hpp">
+			<Option target="nfd"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/src/nfd_win.cpp">
+			<Option target="nfd"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Walnut.cmake">
+			<Option virtualFolder="CMake Files\Walnut\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut-Modules/Walnut-Networking/Walnut-Networking.cmake">
+			<Option virtualFolder="CMake Files\Walnut-Modules\Walnut-Networking\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/GLFW.cmake">
+			<Option virtualFolder="CMake Files\vendor\GLFW\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/imgui/ImGui.cmake">
+			<Option virtualFolder="CMake Files\vendor\imgui\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/yaml-cpp.cmake">
+			<Option virtualFolder="CMake Files\vendor\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/WalnutApp.cmake">
+			<Option virtualFolder="CMake Files\WalnutApp\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\WalnutApp\src\nativefiledialog-extended\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\WalnutApp\src\nativefiledialog-extended\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

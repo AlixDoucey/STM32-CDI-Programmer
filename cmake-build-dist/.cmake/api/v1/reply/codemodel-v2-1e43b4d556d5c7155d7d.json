@@ -1,0 +1,163 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Dist-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6
+					]
+				},
+				{
+					"build" : "WalnutApp/src/nativefiledialog-extended",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-WalnutApp.src.nativefiledialog-extended-Dist-b30a5c484e93e217435e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "WalnutApp/src/nativefiledialog-extended"
+				},
+				{
+					"build" : "WalnutApp/src/nativefiledialog-extended/src",
+					"jsonFile" : "directory-WalnutApp.src.nativefiledialog-extended.src-Dist-3579b7eb4658b614b58a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "WalnutApp/src/nativefiledialog-extended/src",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Dist",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "WalnutApp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "nativefiledialog-extended",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GLFW::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GLFW-Dist-d7c5d000e1d47b97e954.json",
+					"name" : "GLFW",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ImGui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ImGui-Dist-a66e3f9349bc9071cb82.json",
+					"name" : "ImGui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Walnut::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Walnut-Dist-e9af7e79110884342fff.json",
+					"name" : "Walnut",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Walnut-Networking::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Walnut-Networking-Dist-2f7d4530c21f2bb1d246.json",
+					"name" : "Walnut-Networking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "WalnutApp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-WalnutApp-Dist-26e841609b73a1a0f51c.json",
+					"name" : "WalnutApp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "nfd::@d2528c920cfc37252b9f",
+					"jsonFile" : "target-nfd-Dist-ecaf0ff771886b8d176a.json",
+					"name" : "nfd",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yaml-cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yaml-cpp-Dist-156b57aedc62ea7b604b.json",
+					"name" : "yaml-cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/alixd/Desktop/Walnut/cmake-build-dist",
+		"source" : "C:/Users/alixd/Desktop/Walnut"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

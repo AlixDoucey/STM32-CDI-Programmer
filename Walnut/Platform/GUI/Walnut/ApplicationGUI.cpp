@@ -31,6 +31,9 @@
 #include "ImGui/Roboto-Bold.embed"
 #include "ImGui/Roboto-Italic.embed"
 
+// ImPlot
+#include "../../../../WalnutApp/src/ImPlot/implot.h"
+
 extern bool g_ApplicationRunning;
 
 // [Win32] Our example includes a copy of glfw3.lib pre-compiled with VS2010 to maximize ease of testing and compatibility with old VS compilers.
@@ -628,7 +631,7 @@ namespace Walnut {
 			m_IconClose = std::make_shared<Walnut::Image>(w, h, ImageFormat::RGBA, data);
 			free(data);
 		}
-
+		ImPlot::CreateContext();
 	}
 
 	void Application::Shutdown()
@@ -672,6 +675,7 @@ namespace Walnut {
 		g_ApplicationRunning = false;
 
 		Log::Shutdown();
+		ImPlot::DestroyContext();
 	}
 
 	void Application::UI_DrawTitlebar(float& outTitlebarHeight)

@@ -1,0 +1,13 @@
+C:/Users/alixd/Desktop/Walnut/cmake-build-debug/CMakeFiles/Walnut.dir
+C:/Users/alixd/Desktop/Walnut/cmake-build-debug/CMakeFiles/Walnut-Networking.dir
+C:/Users/alixd/Desktop/Walnut/cmake-build-debug/CMakeFiles/GLFW.dir
+C:/Users/alixd/Desktop/Walnut/cmake-build-debug/CMakeFiles/ImGui.dir
+C:/Users/alixd/Desktop/Walnut/cmake-build-debug/CMakeFiles/yaml-cpp.dir
+C:/Users/alixd/Desktop/Walnut/cmake-build-debug/CMakeFiles/WalnutApp.dir
+C:/Users/alixd/Desktop/Walnut/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/alixd/Desktop/Walnut/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/alixd/Desktop/Walnut/cmake-build-debug/WalnutApp/src/nativefiledialog-extended/CMakeFiles/edit_cache.dir
+C:/Users/alixd/Desktop/Walnut/cmake-build-debug/WalnutApp/src/nativefiledialog-extended/CMakeFiles/rebuild_cache.dir
+C:/Users/alixd/Desktop/Walnut/cmake-build-debug/WalnutApp/src/nativefiledialog-extended/src/CMakeFiles/nfd.dir
+C:/Users/alixd/Desktop/Walnut/cmake-build-debug/WalnutApp/src/nativefiledialog-extended/src/CMakeFiles/edit_cache.dir
+C:/Users/alixd/Desktop/Walnut/cmake-build-debug/WalnutApp/src/nativefiledialog-extended/src/CMakeFiles/rebuild_cache.dir

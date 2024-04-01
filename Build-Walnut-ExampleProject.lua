@@ -12,3 +12,4 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 include "Build-Walnut-External.lua"
 include "WalnutApp/Build-Walnut-App.lua"
+include "premake-clion/clion"

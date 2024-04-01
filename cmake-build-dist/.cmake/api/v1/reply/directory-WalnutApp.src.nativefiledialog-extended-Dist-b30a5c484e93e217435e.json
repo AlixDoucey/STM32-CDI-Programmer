@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "WalnutApp/src/nativefiledialog-extended",
+		"source" : "WalnutApp/src/nativefiledialog-extended"
+	}
+}

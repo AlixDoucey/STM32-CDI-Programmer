@@ -30,8 +30,12 @@ int APIENTRY WinMain(HINSTANCE hInst, HINSTANCE hInstPrev, PSTR cmdline, int cmd
 
 #else
 
+#include <Windows.h>
+
 int main(int argc, char** argv)
 {
+    HWND hWnd = GetConsoleWindow();
+    ShowWindow(hWnd, SW_HIDE);
 	return Walnut::Main(argc, argv);
 }
 

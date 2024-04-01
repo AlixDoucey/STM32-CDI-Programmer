@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="WalnutApp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\.vcpkg-clion\;CMake Files\..\..\.vcpkg-clion\vcpkg\;CMake Files\..\..\.vcpkg-clion\vcpkg\scripts\;CMake Files\..\..\.vcpkg-clion\vcpkg\scripts\buildsystems\;CMake Files\Walnut\;CMake Files\Walnut-Modules\;CMake Files\Walnut-Modules\Walnut-Networking\;CMake Files\vendor\;CMake Files\vendor\GLFW\;CMake Files\vendor\imgui\;CMake Files\vendor\yaml-cpp\;CMake Files\WalnutApp\;CMake Files\WalnutApp\src\;CMake Files\WalnutApp\src\nativefiledialog-extended\;CMake Files\WalnutApp\src\nativefiledialog-extended\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Walnut">
+				<Option output="C:/Users/alixd/Desktop/bin/Debug-windows-x86_64/Walnut/Walnut.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DWL_PLATFORM_WINDOWS"/>
+					<Add option="-DWL_DEBUG"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut/Source"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/imgui"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/glfw/include"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/stb_image"/>
+					<Add directory="C:/VulkanSDK/1.3.275.0/Include"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut/../vendor/glm"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut/../vendor/spdlog/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 Walnut"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Walnut/fast">
+				<Option output="C:/Users/alixd/Desktop/bin/Debug-windows-x86_64/Walnut/Walnut.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DWL_PLATFORM_WINDOWS"/>
+					<Add option="-DWL_DEBUG"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut/Source"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/imgui"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/glfw/include"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/stb_image"/>
+					<Add directory="C:/VulkanSDK/1.3.275.0/Include"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut/../vendor/glm"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut/../vendor/spdlog/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 Walnut/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Walnut-Networking">
+				<Option output="C:/Users/alixd/Desktop/Walnut/bin/Debug-windows-x86_64/Walnut-Networking/Walnut-Networking.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DWL_PLATFORM_WINDOWS"/>
+					<Add option="-DWL_DEBUG"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut-Modules/Walnut-Networking/Source"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut-Modules/Walnut-Networking/vendor/GameNetworkingSockets/include"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut/Source"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/imgui"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/glfw/include"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/glm"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/spdlog/include"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut-Modules/Walnut-Networking/Platform/Windows"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 Walnut-Networking"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Walnut-Networking/fast">
+				<Option output="C:/Users/alixd/Desktop/Walnut/bin/Debug-windows-x86_64/Walnut-Networking/Walnut-Networking.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DWL_PLATFORM_WINDOWS"/>
+					<Add option="-DWL_DEBUG"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut-Modules/Walnut-Networking/Source"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut-Modules/Walnut-Networking/vendor/GameNetworkingSockets/include"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut/Source"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/imgui"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/glfw/include"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/glm"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/spdlog/include"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut-Modules/Walnut-Networking/Platform/Windows"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 Walnut-Networking/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLFW">
+				<Option output="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/bin/Debug-windows-x86_64/GLFW/GLFW.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_GLFW_WIN32"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 GLFW"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLFW/fast">
+				<Option output="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/bin/Debug-windows-x86_64/GLFW/GLFW.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_GLFW_WIN32"/>
+					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 GLFW/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImGui">
+				<Option output="C:/Users/alixd/Desktop/Walnut/vendor/imgui/bin/Debug-windows-x86_64/ImGui/ImGui.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 ImGui"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ImGui/fast">
+				<Option output="C:/Users/alixd/Desktop/Walnut/vendor/imgui/bin/Debug-windows-x86_64/ImGui/ImGui.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 ImGui/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yaml-cpp">
+				<Option output="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/bin/Debug-windows-x86_64/yaml-cpp/yaml-cpp.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DYAML_CPP_STATIC_DEFINE"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 yaml-cpp"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yaml-cpp/fast">
+				<Option output="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/bin/Debug-windows-x86_64/yaml-cpp/yaml-cpp.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DYAML_CPP_STATIC_DEFINE"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 yaml-cpp/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WalnutApp">
+				<Option output="C:/Users/alixd/Desktop/Walnut/bin/Debug-windows-x86_64/WalnutApp/WalnutApp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DWL_PLATFORM_WINDOWS"/>
+					<Add option="-DWL_DEBUG"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/imgui"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/glfw/include"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut/Source"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI"/>
+					<Add directory="C:/VulkanSDK/1.3.275.0/Include"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/WalnutApp/../vendor/glm"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/src/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 WalnutApp"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WalnutApp/fast">
+				<Option output="C:/Users/alixd/Desktop/Walnut/bin/Debug-windows-x86_64/WalnutApp/WalnutApp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DWL_PLATFORM_WINDOWS"/>
+					<Add option="-DWL_DEBUG"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/imgui"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/vendor/glfw/include"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut/Source"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI"/>
+					<Add directory="C:/VulkanSDK/1.3.275.0/Include"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/WalnutApp/../vendor/glm"/>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/src/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 WalnutApp/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nfd">
+				<Option output="C:/Users/alixd/Desktop/Walnut/cmake-build-debug/WalnutApp/src/nativefiledialog-extended/src/nfd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug/WalnutApp/src/nativefiledialog-extended/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/src/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 nfd"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nfd/fast">
+				<Option output="C:/Users/alixd/Desktop/Walnut/cmake-build-debug/WalnutApp/src/nativefiledialog-extended/src/nfd.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/alixd/Desktop/Walnut/cmake-build-debug/WalnutApp/src/nativefiledialog-extended/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/src/include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\ATLMFC\include"/>
+					<Add directory="C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.22621.0\\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 nfd/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\alixd\Desktop\Walnut\cmake-build-debug\WalnutApp\src\nativefiledialog-extended\src\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut-Modules/Walnut-Networking/Platform/Windows/Walnut/Networking/WindowsNetworkingUtils.cpp">
+			<Option target="Walnut-Networking"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut-Modules/Walnut-Networking/Source/Walnut/Networking/Client.cpp">
+			<Option target="Walnut-Networking"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut-Modules/Walnut-Networking/Source/Walnut/Networking/Client.h">
+			<Option target="Walnut-Networking"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut-Modules/Walnut-Networking/Source/Walnut/Networking/NetworkingUtils.cpp">
+			<Option target="Walnut-Networking"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut-Modules/Walnut-Networking/Source/Walnut/Networking/NetworkingUtils.h">
+			<Option target="Walnut-Networking"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut-Modules/Walnut-Networking/Source/Walnut/Networking/Server.cpp">
+			<Option target="Walnut-Networking"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut-Modules/Walnut-Networking/Source/Walnut/Networking/Server.h">
+			<Option target="Walnut-Networking"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI/Walnut/ApplicationGUI.cpp">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI/Walnut/ApplicationGUI.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI/Walnut/ImGui/ImGuiBuild.cpp">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI/Walnut/ImGui/ImGuiTheme.cpp">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI/Walnut/ImGui/ImGuiTheme.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI/Walnut/Image.cpp">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI/Walnut/Image.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI/Walnut/Input/Input.cpp">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI/Walnut/Input/Input.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI/Walnut/Input/KeyCodes.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI/Walnut/UI/Console.cpp">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI/Walnut/UI/Console.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI/Walnut/UI/UI.cpp">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI/Walnut/UI/UI.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Application.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Core/Assert.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Core/Buffer.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Core/Log.cpp">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Core/Log.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Core/LogCustomFormatters.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/EntryPoint.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Layer.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Random.cpp">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Random.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Serialization/BufferStream.cpp">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Serialization/BufferStream.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Serialization/FileStream.cpp">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Serialization/FileStream.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Serialization/StreamReader.cpp">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Serialization/StreamReader.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Serialization/StreamWriter.cpp">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Serialization/StreamWriter.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Timer.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Utils/StringUtils.cpp">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Source/Walnut/Utils/StringUtils.h">
+			<Option target="Walnut"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/ImPlot/MyPlot.cpp">
+			<Option target="WalnutApp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/ImPlot/MyPlot.h">
+			<Option target="WalnutApp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/ImPlot/implot.cpp">
+			<Option target="WalnutApp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/ImPlot/implot.h">
+			<Option target="WalnutApp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/ImPlot/implot_demo.cpp">
+			<Option target="WalnutApp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/ImPlot/implot_internal.h">
+			<Option target="WalnutApp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/ImPlot/implot_items.cpp">
+			<Option target="WalnutApp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/WalnutApp.cpp">
+			<Option target="WalnutApp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/src/include/nfd.h">
+			<Option target="nfd"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/src/include/nfd.hpp">
+			<Option target="nfd"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/src/nfd_win.cpp">
+			<Option target="nfd"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/include/GLFW/glfw3.h">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/include/GLFW/glfw3native.h">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/context.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/egl_context.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/init.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/input.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/monitor.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/null_init.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/null_joystick.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/null_joystick.h">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/null_monitor.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/null_window.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/osmesa_context.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/platform.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/platform.h">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/vulkan.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/wgl_context.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/win32_init.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/win32_joystick.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/win32_joystick.h">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/win32_module.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/win32_monitor.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/win32_thread.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/win32_thread.h">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/win32_time.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/win32_time.h">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/win32_window.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/src/window.c">
+			<Option target="GLFW"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/imgui/imconfig.h">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/imgui/imgui.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/imgui/imgui.h">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/imgui/imgui_demo.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/imgui/imgui_draw.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/imgui/imgui_internal.h">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/imgui/imgui_tables.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/imgui/imgui_widgets.cpp">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/imgui/imstb_rectpack.h">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/imgui/imstb_textedit.h">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/imgui/imstb_truetype.h">
+			<Option target="ImGui"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/anchor.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/binary.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/contrib/anchordict.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/contrib/graphbuilder.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/depthguard.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/dll.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/emitfromevents.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/emitter.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/emitterdef.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/emittermanip.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/emitterstyle.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/eventhandler.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/exceptions.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/mark.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/convert.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/detail/impl.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/detail/iterator.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/detail/iterator_fwd.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/detail/memory.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/detail/node.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/detail/node_data.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/detail/node_iterator.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/detail/node_ref.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/emit.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/impl.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/iterator.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/node.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/parse.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/ptr.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/node/type.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/noexcept.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/null.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/ostream_wrapper.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/parser.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/stlemitter.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/traits.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/include/yaml-cpp/yaml.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/binary.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/collectionstack.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/contrib/graphbuilder.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/contrib/graphbuilderadapter.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/contrib/graphbuilderadapter.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/convert.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/depthguard.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/directives.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/directives.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/emit.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/emitfromevents.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/emitter.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/emitterstate.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/emitterstate.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/emitterutils.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/emitterutils.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/exceptions.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/exp.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/exp.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/indentation.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/memory.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/node.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/node_data.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/nodebuilder.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/nodebuilder.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/nodeevents.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/nodeevents.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/null.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/ostream_wrapper.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/parse.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/parser.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/ptr_vector.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/regex_yaml.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/regex_yaml.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/regeximpl.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/scanner.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/scanner.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/scanscalar.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/scanscalar.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/scantag.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/scantag.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/scantoken.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/setting.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/simplekey.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/singledocparser.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/singledocparser.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/stream.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/stream.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/streamcharsource.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/stringsource.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/tag.cpp">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/tag.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/src/token.h">
+			<Option target="yaml-cpp"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/../../.vcpkg-clion/vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\..\..\.vcpkg-clion\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut/Walnut.cmake">
+			<Option virtualFolder="CMake Files\Walnut\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/Walnut-Modules/Walnut-Networking/Walnut-Networking.cmake">
+			<Option virtualFolder="CMake Files\Walnut-Modules\Walnut-Networking\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/GLFW/GLFW.cmake">
+			<Option virtualFolder="CMake Files\vendor\GLFW\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/imgui/ImGui.cmake">
+			<Option virtualFolder="CMake Files\vendor\imgui\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/vendor/yaml-cpp/yaml-cpp.cmake">
+			<Option virtualFolder="CMake Files\vendor\yaml-cpp\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/WalnutApp.cmake">
+			<Option virtualFolder="CMake Files\WalnutApp\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\WalnutApp\src\nativefiledialog-extended\"/>
+		</Unit>
+		<Unit filename="C:/Users/alixd/Desktop/Walnut/WalnutApp/src/nativefiledialog-extended/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\WalnutApp\src\nativefiledialog-extended\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

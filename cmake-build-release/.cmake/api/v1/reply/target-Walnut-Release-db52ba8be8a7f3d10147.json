@@ -1,0 +1,453 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "C:/Users/alixd/Desktop/bin/Release-windows-x86_64/Walnut/Walnut.lib"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"add_dependencies",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"set_target_properties"
+		],
+		"files" : 
+		[
+			"Walnut/Walnut.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 126,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 2
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std:c++20"
+				},
+				{
+					"fragment" : "/EHsc /Zc:preprocessor /Zc:__cplusplus "
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-m64"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-O2"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-std=c++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "WL_PLATFORM_WINDOWS"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "WL_RELEASE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/alixd/Desktop/Walnut/Walnut/Source"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/alixd/Desktop/Walnut/Walnut/Platform/GUI"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/alixd/Desktop/Walnut/vendor/imgui"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/alixd/Desktop/Walnut/vendor/glfw/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/alixd/Desktop/Walnut/vendor/stb_image"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/VulkanSDK/1.3.275.0/Include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/alixd/Desktop/Walnut/Walnut/../vendor/glm"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/alixd/Desktop/Walnut/Walnut/../vendor/spdlog/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					8
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				5,
+				7,
+				10,
+				12,
+				17,
+				22,
+				24,
+				26,
+				28,
+				30,
+				33
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "GLFW::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ImGui::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "Walnut::@6890427a1f51a3e7e1df",
+	"name" : "Walnut",
+	"nameOnDisk" : "Walnut.lib",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				5,
+				7,
+				10,
+				12,
+				17,
+				22,
+				24,
+				26,
+				28,
+				30,
+				33
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				4,
+				6,
+				8,
+				9,
+				11,
+				13,
+				14,
+				15,
+				16,
+				18,
+				19,
+				20,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				32,
+				34
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Walnut/Platform/GUI/Walnut/ApplicationGUI.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Platform/GUI/Walnut/ApplicationGUI.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Walnut/Platform/GUI/Walnut/ImGui/ImGuiBuild.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Walnut/Platform/GUI/Walnut/ImGui/ImGuiTheme.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Platform/GUI/Walnut/ImGui/ImGuiTheme.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Walnut/Platform/GUI/Walnut/Image.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Platform/GUI/Walnut/Image.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Walnut/Platform/GUI/Walnut/Input/Input.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Platform/GUI/Walnut/Input/Input.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Platform/GUI/Walnut/Input/KeyCodes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Walnut/Platform/GUI/Walnut/UI/Console.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Platform/GUI/Walnut/UI/Console.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Walnut/Platform/GUI/Walnut/UI/UI.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Platform/GUI/Walnut/UI/UI.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Source/Walnut/Application.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Source/Walnut/Core/Assert.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Source/Walnut/Core/Buffer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Walnut/Source/Walnut/Core/Log.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Source/Walnut/Core/Log.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Source/Walnut/Core/LogCustomFormatters.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Source/Walnut/EntryPoint.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Source/Walnut/Layer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Walnut/Source/Walnut/Random.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Source/Walnut/Random.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Walnut/Source/Walnut/Serialization/BufferStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Source/Walnut/Serialization/BufferStream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Walnut/Source/Walnut/Serialization/FileStream.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Source/Walnut/Serialization/FileStream.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Walnut/Source/Walnut/Serialization/StreamReader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Source/Walnut/Serialization/StreamReader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Walnut/Source/Walnut/Serialization/StreamWriter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Source/Walnut/Serialization/StreamWriter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Source/Walnut/Timer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "Walnut/Source/Walnut/Utils/StringUtils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "Walnut/Source/Walnut/Utils/StringUtils.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

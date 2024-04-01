@@ -2,7 +2,8 @@
 
 #include <glm/glm.hpp>
 
-#include <spdlog/fmt/fmt.h>
+#include "../../../../vendor/spdlog/include/spdlog/fmt/fmt.h"
+//#include <spdlog/fmt/fmt.h>
 
 namespace fmt {
 
